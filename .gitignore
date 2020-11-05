@@ -1,0 +1,25 @@
+#compiled stuff
+*.so
+*.d
+*.o
+*.pcm
+*.pyc
+*.pyo
+
+#UAF stuff
+*.nfs*
+
+#debugging stuff
+*.debug
+*.log
+
+#ROOT
+CMSSW_*/
+
+#Local Scratch Directory
+scratch/
+
+*.out
+LinkDef_out.cxx
+LinkDef_out.o
+
