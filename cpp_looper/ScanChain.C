@@ -63,7 +63,7 @@ int ScanChain(TChain *ch, TString outputFileName, float xsec) {
             {
                 htautauMass->Fill(hhgg.tautauMass(), hhgg.genWeight());
             }
-            if(hhgg.passedHPhotons() == 1)
+            if(hhgg.passedDigammaPair() == 1)
             {
                 hLeadingPhotonPt->Fill(hhgg.Photon_pt()[hhgg.gHidx()[0]], hhgg.genWeight());
                 hLeadingPhotonEta->Fill(hhgg.Photon_eta()[hhgg.gHidx()[0]], hhgg.genWeight());
